@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a RL Soluções">
+    <meta name="keywords" content="contato, RL Soluções">
+    <meta name="author" content="RL Soluções">
+    <title>Contato - RL Soluções</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/notificacao.css">
+    <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/auth.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="glass-header">
+        <div class="header-container">
+            <a href="/" class="logo" aria-label="RL.AI Home">
+                <span class="gradient-text">RL.</span>AI
+            </a>
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="main-nav" role="navigation">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="/#market" class="nav-link"><i class="fas fa-robot"></i> Mercado</a></li>
+                    <li><a href="/about.html" class="nav-link"><i class="fas fa-info-circle"></i> Sobre</a></li>
+                    <li><a href="/contact.html" class="nav-link active"><i class="fas fa-envelope"></i> Contato</a></li>
+                    <li><a href="#" class="nav-link cart-btn" id="cartBtn"><i class="fas fa-shopping-cart"></i> Carrinho (<span id="cartCount">0</span>)</a></li>
+                    <li class="auth-links">
+                        <a href="#" class="nav-link login-btn" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Login</a>
+                        <a href="#" class="nav-link logout-btn hidden" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Sair</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="content-page">
+            <h1>Entre em Contato</h1>
+            <p>Estamos aqui para ajudar! Preencha o formulário abaixo ou use nossos canais de contato diretos.</p>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="contactName">Nome</label>
+                    <input type="text" id="contactName" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactEmail">Email</label>
+                    <input type="email" id="contactEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactMessage">Mensagem</label>
+                    <textarea id="contactMessage" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="buy-btn">Enviar Mensagem</button>
+            </form>
+
+            <div class="contact-info">
+                <h2>Outros Canais</h2>
+                <p><i class="fas fa-phone"></i> +55 11 99999-9999</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:contact@rl.ai">contact@rl.ai</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>RL Soluções</h3>
+                <p>Transformando negócios através da inteligência artificial desde 2025</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> +55 11 99999-9999</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:contact@rl.ai">contact@rl.ai</a></p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="/privacy.html"><i class="fas fa-file-contract"></i> Política de Privacidade</a></li>
+                    <li><a href="/terms.html"><i class="fas fa-shield-alt"></i> Termos de Serviço</a></li>
+                    <li><a href="/licenses.html"><i class="fas fa-balance-scale"></i> Licenças</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="social-link" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 RL Soluções. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
